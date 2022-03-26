@@ -1,0 +1,113 @@
+* {margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Franklin Gothic Medium;
+}
+
+.MBG {
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    margin: 10px 0px; 
+}
+
+.SBG {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+}
+.BOX1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 135%;
+    background-image: url(/Lpage_folder/mobile-image-hero-3.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; border-radius: 100px;
+    margin: 10px 10px 20px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 300px; margin: 40px 5px;
+}
+
+.navigH, .navigS, .navigA, .navigC {color: silver;}
+
+.navigH:hover, .navigS:hover, .navigA:hover, .navigC:hover {background-color: transparent; color: white;}
+
+
+.BOX2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+    height: 135%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.b1 h1 {display: flex; justify-content: center;
+    align-items: center; text-align: center; font-size: 20px;}
+
+    .b1 h1:hover { cursor: pointer;
+        background-color: transparent; color: rgb(133, 129, 129);
+    }
+
+    .theme { cursive; font-size: 50px; padding-top: 100px; padding: 100px 70px 5px 70px;}
+
+    .content {font-family: sans-serif;font-size: 18px; line-height: 25px; padding: 10px 80px 20px 80px;}
+
+    .button {width: 300px; height: 40px; border: none; outline: none; background-color: transparent;}
+
+
+    .arrow {width: 60px; height: 25px; padding-top: 4px; border: none; outline: none;}
+
+    .set:hover {background-color: rgb(255, 255, 255); color: rgb(88, 86, 86);}
+
+    .arrowdir {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; margin-left: none;}
+
+    .dir1 {width:60.8px; margin-top: 100px; height: 70px;}
+    .dir1:hover {opacity: 0.3; cursor: pointer;}
+
+.SBG1 {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 184px; 
+    width: 80%; margin-left: 10%; margin-bottom: 20px;
+    height: 40.5%;
+}
+
+.darkroom{
+    height: 92%; width: 30%;
+    margin-bottom: 35px;
+}
+
+.lightroom{
+    height: 92%; width: 30%;
+    margin-bottom: 35px;
+}
+
+.h {font-size: 40px; text-align: center;}
+.p {font-size: 20px; line-height: 30px; text-align: center; padding-left: 60px; padding-right: 60px;}
