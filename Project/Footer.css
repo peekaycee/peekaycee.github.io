@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #123456;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderHold {
+  width: 85%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavsDiv {
+  width: 400px;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavsDiv a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 350ms;
+}
+
+.NavsDiv a:hover {
+  height: 30px;
+  width: 70px;
+  background-color: transparent; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  /* color: deepskyblue; */
+  transform: scale(1.1);
+}
+
+.Logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.Se1 {
+  height: 200px;
+  width: 100%;
+  background: url("./Image/pexels-pixabay-209449.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Painter {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  font-family: dark seed;
+  letter-spacing: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Se2 {
+  background-color: #0a0c1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.SectionTwoCard {
+  background-color: #1c1938;
+  display: flex;
+  height: 75%;
+  width: 70%;
+  border-radius: 9px;
+}
+
+.SectionTwoImg {
+  height: 100%;
+  width: 50%;
+  background-color: aqua;
+  object-fit: cover;
+}
+
+.SectionTwoImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.S2CardText {
+  width: 50%;
+  height: 100%;
+  /* background-color: rosybrown; */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 0 50px;
+  box-shadow: rgba(224, 212, 212, 1);
+}
+
+.S2CardText span {
+  color: #aa5cd6;
+}
+
+.S2CardText h1 {
+  width: 300px; font-size: 30px;
+  /* background-color: saddlebrown; */
+  margin-bottom: 20px;
+}
+
+.PContent {
+  width: 300px; height: 30px;
+  margin-bottom: 20px;
+}
+
+.Count {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 50px;
+  padding-top: 50px;
+  font-size: 20px;
+  /* background-color: royalblue; */
+}
+
+.CountText {
+  font-size: small;
+}
+
+.Se3 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.Se3holder {
+  background-color: whitesmoke;
+  display: flex;
+  height: 70%;
+  width: 70%;
+  border-radius: 100px;
+}
+
+.s3Card1 {
+  height: 100%;
+  width: 33.3%;
+  background-color: rgb(238, 139, 9);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.s3cardlogo {
+  height: 15%;
+  width: 100%;
+  padding: 20px 0 0 5px;
+}
+
+.s3cardlogo img {
+  width: 20%;
+  height: 45%;
+  object-fit: cover;
+
+}
+
+.s3Cardtext {
+  width: 50%;
+  height: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10%;
+}
+
+.s3Cardtext h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: -300px;
+}
+
+.s3Cardtext p {
+  line-height: 20px;
+  padding: 30px 0 40px 0;
+}
+
+.button1 {
+  width: 100px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+.button1 span {color: rgb(238, 139, 9);}
+
+.s3Card2 {
+  height: 100%;
+  width: 33.3%;
+  background-color: rgb(9, 148, 158);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.s3cardlogo {
+  height: 15%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.s3cardlogo img {
+  width: 10%;
+  height: 45%;
+  object-fit: cover;
+  padding: 20px 0 0 20px; 
+}
+
+.s3Cardtext {
+  width: 50%;
+  height: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10%;
+}
+
+.s3Cardtext h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: -300px;
+}
+
+.s3Cardtext p {
+  line-height: 20px;
+  padding: 20px 0 40px 0;
+}
+
+.button2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+.button2 span {color:rgb(9, 148, 158);}
+
+.s3Card3 {
+  height: 100%;
+  width: 33.3%;
+  background-color: rgb(65, 104, 1);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.s3cardlogo {
+  height: 15%;
+  width: 100%;
+}
+
+.s3cardlogo img {
+  width: 10%;
+  height: 45%;
+  object-fit: cover;
+  padding: 20px 0 0 25px;
+}
+
+.s3Cardtext {
+  width: 50%;
+  height: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10%;
+}
+
+.s3Cardtext h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: -300px;
+}
+
+.s3Cardtext p {
+  line-height: 20px;
+  padding: 20px 0 40px 0;
+}
+
+.button3 {
+  width: 100px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+.button3 span {color:rgb(8, 12, 0);
+}
+
+.footerlogo {
+  width: 20%;
+}
+
+
+.footerNavs {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerIcons {
+  width: 20%;
+  padding-left: 20px;
+}
+
+.flogoimg {width: 30px; 
+  height: 30px;
+padding-bottom: 20px;}
+
+.ftext {
+  width: 200px;
+  height: 60px;
+}
+
+.footerNavs {
+  display: flex;
+  flex-direction: row;
+}
+
+.InNavhold {
+  display: flex;
+  flex-direction: column;
+}
+.InNavhold a {padding: 5px 0;}
+
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+}
+
+.Mainfooter {
+  background-color: #222;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 220px;
+  padding-top: 20px;
+}
+
+.footerholder {
+  background-color: #222;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 220px;
+  padding: 0 30px; color: white;
+}
+.footerIcons img {
+  width: 20px;
+  height: 20px;
+}
+
+.footericons {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerholder a {color: white;}
